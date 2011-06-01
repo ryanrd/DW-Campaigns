@@ -1,0 +1,1371 @@
+<?php
+$content['type']  = array (
+  'name' => 'Derby Fundraising Campaign (DW)',
+  'type' => 'dw_campaigns_derby',
+  'description' => 'Derby style DW Campaign',
+  'title_label' => 'Campaign Name',
+  'body_label' => 'Description',
+  'min_word_count' => '0',
+  'help' => '',
+  'node_options' => 
+  array (
+    'status' => true,
+    'promote' => false,
+    'sticky' => false,
+    'revision' => false,
+  ),
+  'old_type' => 'dw_campaigns_derby',
+  'orig_type' => '',
+  'module' => 'node',
+  'custom' => '1',
+  'modified' => '1',
+  'locked' => '0',
+  'comment' => '0',
+  'comment_default_mode' => '4',
+  'comment_default_order' => '1',
+  'comment_default_per_page' => '50',
+  'comment_controls' => '3',
+  'comment_anonymous' => 0,
+  'comment_subject_field' => '0',
+  'comment_preview' => '1',
+  'comment_form_location' => '0',
+);
+$content['fields']  = array (
+  0 => 
+  array (
+    'label' => 'Date Range',
+    'field_name' => 'field_dw_date_range',
+    'type' => 'date',
+    'widget_type' => 'date_popup',
+    'change' => 'Change basic information',
+    'weight' => '24',
+    'default_value' => 'blank',
+    'default_value2' => 'same',
+    'default_value_code' => '',
+    'default_value_code2' => '',
+    'input_format' => 'm/d/Y - H:i',
+    'input_format_custom' => '',
+    'year_range' => '-3:+3',
+    'increment' => '1',
+    'advanced' => 
+    array (
+      'label_position' => 'above',
+      'text_parts' => 
+      array (
+        'year' => 0,
+        'month' => 0,
+        'day' => 0,
+        'hour' => 0,
+        'minute' => 0,
+        'second' => 0,
+      ),
+    ),
+    'label_position' => 'above',
+    'text_parts' => 
+    array (
+    ),
+    'description' => '',
+    'required' => 0,
+    'multiple' => '0',
+    'repeat' => 0,
+    'todate' => 'optional',
+    'granularity' => 
+    array (
+      'year' => 'year',
+      'month' => 'month',
+      'day' => 'day',
+    ),
+    'default_format' => 'medium',
+    'tz_handling' => 'none',
+    'timezone_db' => '',
+    'op' => 'Save field settings',
+    'module' => 'date',
+    'widget_module' => 'date',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'varchar',
+        'length' => 20,
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+      'value2' => 
+      array (
+        'type' => 'varchar',
+        'length' => 20,
+        'not null' => false,
+        'sortable' => true,
+        'views' => false,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      2 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      3 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  1 => 
+  array (
+    'label' => 'Fundraising Goal',
+    'field_name' => 'field_dw_fundraising_goal',
+    'type' => 'number_integer',
+    'widget_type' => 'number',
+    'change' => 'Change basic information',
+    'weight' => '25',
+    'description' => '',
+    'default_value' => 
+    array (
+      0 => 
+      array (
+        'value' => '',
+        '_error_element' => 'default_value_widget][field_dw_fundraising_goal][0][value',
+      ),
+    ),
+    'default_value_php' => '',
+    'default_value_widget' => 
+    array (
+      'field_dw_fundraising_goal' => 
+      array (
+        0 => 
+        array (
+          'value' => '',
+          '_error_element' => 'default_value_widget][field_dw_fundraising_goal][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'min' => '0',
+    'max' => '999999',
+    'prefix' => '$',
+    'suffix' => '.00',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'number',
+    'widget_module' => 'number',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'int',
+        'not null' => false,
+        'sortable' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'label' => 'Campaign Status',
+    'field_name' => 'field_dw_campaign_status',
+    'type' => 'text',
+    'widget_type' => 'optionwidgets_select',
+    'change' => 'Change basic information',
+    'weight' => '26',
+    'description' => '',
+    'default_value' => 
+    array (
+      0 => 
+      array (
+        'value' => '',
+      ),
+    ),
+    'default_value_php' => '',
+    'default_value_widget' => 
+    array (
+      'field_dw_campaign_status' => 
+      array (
+        'value' => '',
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'enabled|Enabled
+disabled|Disabled',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'optionwidgets',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  3 => 
+  array (
+    'label' => 'Address',
+    'field_name' => 'field_dw_address',
+    'type' => 'addresses_cck',
+    'widget_type' => 'addresses_elements',
+    'change' => 'Change basic information',
+    'weight' => '27',
+    'description' => '',
+    'default_value' => 
+    array (
+      0 => 
+      array (
+        'postal_code' => '',
+        'street' => '',
+        'city' => '',
+        'aname' => '',
+      ),
+    ),
+    'default_value_php' => '',
+    'default_value_widget' => 
+    array (
+      'field_dw_address' => 
+      array (
+        0 => 
+        array (
+          'postal_code' => '',
+          'street' => '',
+          'city' => '',
+          'aname' => '',
+        ),
+      ),
+    ),
+    'required' => '0',
+    'multiple' => '0',
+    'is_primary_select' => '0',
+    'is_primary_size' => '',
+    'is_primary_label' => '',
+    'is_primary_desc' => '',
+    'aname_select' => '0',
+    'aname_size' => '',
+    'aname_label' => '',
+    'aname_desc' => '',
+    'country_select' => '0',
+    'country_size' => '',
+    'country_label' => '',
+    'country_desc' => '',
+    'province_select' => '0',
+    'province_size' => '',
+    'province_label' => '',
+    'province_desc' => '',
+    'city_select' => '1',
+    'city_size' => '',
+    'city_label' => 'City',
+    'city_desc' => '',
+    'street_select' => '1',
+    'street_size' => '',
+    'street_label' => 'Street Address',
+    'street_desc' => '',
+    'additional_select' => '0',
+    'additional_size' => '',
+    'additional_label' => '',
+    'additional_desc' => '',
+    'postal_code_select' => '1',
+    'postal_code_size' => '',
+    'postal_code_label' => 'Postal Code',
+    'postal_code_desc' => '',
+    'op' => 'Save field settings',
+    'module' => 'addresses_cck',
+    'widget_module' => 'addresses_cck',
+    'columns' => 
+    array (
+      'is_primary' => 
+      array (
+        'type' => 'int',
+        'size' => 'tiny',
+        'title' => 'Primary Address Checkbox',
+        'description' => 'Mark it as the primary address or not (default is not)',
+        'default' => 0,
+        'display' => 0,
+        'theme' => 
+        array (
+          'plain' => '"False" if the checkbox is not checked, otherwise "True".',
+          'hcard' => 'An hcard/vcard html representation of the primary checkbox.',
+        ),
+        'token' => 'addresses_general',
+      ),
+      'aname' => 
+      array (
+        'type' => 'varchar',
+        'length' => 75,
+        'title' => 'Address Name',
+        'description' => 'The nickname of this address, like "Home", "Office", "Anna\'s apartment."',
+        'default' => '',
+        'display' => 0,
+        'theme' => 
+        array (
+          'plain' => 'The address name.',
+          'hcard' => 'An hcard/vcard html representation of the address name.',
+        ),
+        'token' => 'addresses_general',
+      ),
+      'country' => 
+      array (
+        'type' => 'varchar',
+        'length' => 2,
+        'title' => 'Country',
+        'description' => 'The ISO alpha 3 code of each country (its a 2-digit code).',
+        'default' => 'us',
+        'display' => 1,
+        'theme' => 
+        array (
+          'name' => 'The name of the country.',
+          'code2' => 'The 2-digit country code.',
+          'code3' => 'The 3-digit country code.',
+          'name_hcard' => 'An hcard/vcard representation of the country name.',
+          'code2_hcard' => 'An hcard/vcard representation of the 2-digit country code.',
+          'code3_hcard' => 'An hcard/vcard representation of the 3-digit country code.',
+        ),
+        'token' => 'addresses_adr',
+      ),
+      'province' => 
+      array (
+        'type' => 'varchar',
+        'length' => 16,
+        'title' => 'Province',
+        'description' => 'The name of the state, province, county or territory.',
+        'default' => '',
+        'display' => 1,
+        'theme' => 
+        array (
+          'name' => 'The province name.',
+          'code' => 'The province code.',
+          'name_hcard' => 'An hcard/vcard representation of the province name.',
+          'code_hcard' => 'An hcard/vcard representation of the province code.',
+        ),
+        'token' => 'addresses_adr',
+      ),
+      'city' => 
+      array (
+        'type' => 'varchar',
+        'length' => 255,
+        'title' => 'City',
+        'description' => 'The name of the city.',
+        'default' => '',
+        'display' => 1,
+        'theme' => 
+        array (
+          'plain' => 'The city.',
+          'hcard' => 'An hcard/vcard representation of the city.',
+        ),
+        'token' => 'addresses_adr',
+      ),
+      'street' => 
+      array (
+        'type' => 'varchar',
+        'length' => 255,
+        'title' => 'Street',
+        'description' => 'Street, number...',
+        'default' => '',
+        'display' => 1,
+        'theme' => 
+        array (
+          'plain' => 'The street, number, etc.',
+          'hcard' => 'An hcard/vcard representation of the street.',
+        ),
+        'token' => 'addresses_adr',
+      ),
+      'additional' => 
+      array (
+        'type' => 'varchar',
+        'length' => 255,
+        'title' => 'Additional',
+        'description' => 'Additional address information like apartment block, number or address reference.',
+        'default' => '',
+        'display' => 1,
+        'theme' => 
+        array (
+          'plain' => 'Additional address information.',
+          'hcard' => 'An hcard/vcard representation of the additional address information.',
+        ),
+        'token' => 'addresses_adr',
+      ),
+      'postal_code' => 
+      array (
+        'type' => 'varchar',
+        'length' => 16,
+        'title' => 'Postal code',
+        'description' => 'The address postal code (ZIP code for US people).',
+        'default' => '',
+        'display' => 1,
+        'theme' => 
+        array (
+          'plain' => 'The postal code.',
+          'hcard' => 'An hcard/vcard representation of the postal code.',
+        ),
+        'token' => 'addresses_adr',
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'label' => 'Event Date',
+    'field_name' => 'field_dw_event_date',
+    'type' => 'text',
+    'widget_type' => 'text_textfield',
+    'change' => 'Change basic information',
+    'weight' => '28',
+    'rows' => 5,
+    'size' => '60',
+    'description' => '',
+    'default_value' => 
+    array (
+      0 => 
+      array (
+        'value' => '',
+        '_error_element' => 'default_value_widget][field_dw_event_date][0][value',
+      ),
+    ),
+    'default_value_php' => '',
+    'default_value_widget' => 
+    array (
+      'field_dw_event_date' => 
+      array (
+        0 => 
+        array (
+          'value' => '',
+          '_error_element' => 'default_value_widget][field_dw_event_date][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'label' => 'Event Time',
+    'field_name' => 'field_dw_event_time',
+    'type' => 'text',
+    'widget_type' => 'text_textfield',
+    'change' => 'Change basic information',
+    'weight' => '29',
+    'rows' => 5,
+    'size' => '60',
+    'description' => '',
+    'default_value' => 
+    array (
+      0 => 
+      array (
+        'value' => '',
+        '_error_element' => 'default_value_widget][field_dw_event_time][0][value',
+      ),
+    ),
+    'default_value_php' => '',
+    'default_value_widget' => 
+    array (
+      'field_dw_event_time' => 
+      array (
+        0 => 
+        array (
+          'value' => '',
+          '_error_element' => 'default_value_widget][field_dw_event_time][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  6 => 
+  array (
+    'label' => 'Event Location',
+    'field_name' => 'field_dw_event_location',
+    'type' => 'text',
+    'widget_type' => 'text_textfield',
+    'change' => 'Change basic information',
+    'weight' => '30',
+    'rows' => 5,
+    'size' => '60',
+    'description' => '',
+    'default_value' => 
+    array (
+      0 => 
+      array (
+        'value' => '',
+        '_error_element' => 'default_value_widget][field_dw_event_location][0][value',
+      ),
+    ),
+    'default_value_php' => '',
+    'default_value_widget' => 
+    array (
+      'field_dw_event_location' => 
+      array (
+        0 => 
+        array (
+          'value' => '',
+          '_error_element' => 'default_value_widget][field_dw_event_location][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'label' => 'Thank You Title',
+    'field_name' => 'field_dw_thankyou_title',
+    'type' => 'text',
+    'widget_type' => 'text_textfield',
+    'change' => 'Change basic information',
+    'weight' => '31',
+    'rows' => 5,
+    'size' => '60',
+    'description' => '',
+    'default_value' => 
+    array (
+    ),
+    'default_value_php' => '$temp = variable_get(\'dw_campaigns_default_thankyou_title\', \'\'); return array(\'0\' => array(\'value\' =>$temp));',
+    'default_value_widget' => 
+    array (
+      'field_dw_thankyou_title' => 
+      array (
+        0 => 
+        array (
+          'value' => 'This is the title',
+          '_error_element' => 'default_value_widget][field_dw_thankyou_title][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  8 => 
+  array (
+    'label' => 'Thank You Text',
+    'field_name' => 'field_dw_thankyou_text',
+    'type' => 'text',
+    'widget_type' => 'text_textarea',
+    'change' => 'Change basic information',
+    'weight' => '32',
+    'rows' => 5,
+    'size' => '60',
+    'description' => '',
+    'default_value' => 
+    array (
+    ),
+    'default_value_php' => '$temp = variable_get(\'dw_campaigns_default_thankyou_text\', \'\'); return array(\'0\' => array(\'value\' =>$temp));',
+    'default_value_widget' => 
+    array (
+      'field_dw_thankyou_text' => 
+      array (
+        0 => 
+        array (
+          'value' => 'ty text',
+          '_error_element' => 'default_value_widget][field_dw_thankyou_text][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  9 => 
+  array (
+    'label' => 'Thank You Footer',
+    'field_name' => 'field_dw_thankyou_footer',
+    'type' => 'text',
+    'widget_type' => 'text_textfield',
+    'change' => 'Change basic information',
+    'weight' => '33',
+    'rows' => 5,
+    'size' => '60',
+    'description' => '',
+    'default_value' => 
+    array (
+    ),
+    'default_value_php' => '$temp = variable_get(\'dw_campaigns_default_thankyou_footer\', \'\'); return array(\'0\' => array(\'value\' =>$temp));',
+    'default_value_widget' => 
+    array (
+      'field_dw_thankyou_footer' => 
+      array (
+        0 => 
+        array (
+          'value' => 'ty footer',
+          '_error_element' => 'default_value_widget][field_dw_thankyou_footer][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  10 => 
+  array (
+    'label' => 'Receipt From Name',
+    'field_name' => 'field_dw_receipt_from_name',
+    'type' => 'text',
+    'widget_type' => 'text_textfield',
+    'change' => 'Change basic information',
+    'weight' => '34',
+    'rows' => 5,
+    'size' => '60',
+    'description' => '',
+    'default_value' => 
+    array (
+    ),
+    'default_value_php' => '$temp = variable_get(\'dw_campaigns_default_receipt_from_name\', \'\'); return array(\'0\' => array(\'value\' =>$temp));',
+    'default_value_widget' => 
+    array (
+      'field_dw_receipt_from_name' => 
+      array (
+        0 => 
+        array (
+          'value' => 'receipt from',
+          '_error_element' => 'default_value_widget][field_dw_receipt_from_name][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  11 => 
+  array (
+    'label' => 'Receipt From Email',
+    'field_name' => 'field_dw_receipt_from_email',
+    'type' => 'text',
+    'widget_type' => 'text_textfield',
+    'change' => 'Change basic information',
+    'weight' => '35',
+    'rows' => 5,
+    'size' => '60',
+    'description' => '',
+    'default_value' => 
+    array (
+    ),
+    'default_value_php' => '$temp = variable_get(\'dw_campaigns_default_receipt_from_email\', \'\'); return array(\'0\' => array(\'value\' =>$temp));',
+    'default_value_widget' => 
+    array (
+      'field_dw_receipt_from_email' => 
+      array (
+        0 => 
+        array (
+          'value' => 'receipt email',
+          '_error_element' => 'default_value_widget][field_dw_receipt_from_email][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  12 => 
+  array (
+    'label' => 'Receipt Text',
+    'field_name' => 'field_dw_receipt_text',
+    'type' => 'text',
+    'widget_type' => 'text_textarea',
+    'change' => 'Change basic information',
+    'weight' => '36',
+    'rows' => '5',
+    'size' => 60,
+    'description' => '',
+    'default_value' => 
+    array (
+    ),
+    'default_value_php' => '$temp = variable_get(\'dw_campaigns_default_receipt_text\', \'\'); return array(\'0\' => array(\'value\' =>$temp));',
+    'default_value_widget' => 
+    array (
+      'field_dw_receipt_text' => 
+      array (
+        0 => 
+        array (
+          'value' => 'receipt text',
+          '_error_element' => 'default_value_widget][field_dw_receipt_text][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  13 => 
+  array (
+    'label' => 'Receipt CCs',
+    'field_name' => 'field_dw_cc_receipt',
+    'type' => 'text',
+    'widget_type' => 'text_textfield',
+    'change' => 'Change basic information',
+    'weight' => '37',
+    'rows' => 5,
+    'size' => '60',
+    'description' => '',
+    'default_value' => 
+    array (
+    ),
+    'default_value_php' => '$temp = variable_get(\'dw_campaigns_default_cc_receipt\', \'\'); return array(\'0\' => array(\'value\' =>$temp));',
+    'default_value_widget' => 
+    array (
+      'field_dw_cc_receipt' => 
+      array (
+        0 => 
+        array (
+          'value' => 'cc',
+          '_error_element' => 'default_value_widget][field_dw_cc_receipt][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+  14 => 
+  array (
+    'label' => 'Receipt BCCs',
+    'field_name' => 'field_dw_bcc_receipt',
+    'type' => 'text',
+    'widget_type' => 'text_textfield',
+    'change' => 'Change basic information',
+    'weight' => '38',
+    'rows' => 5,
+    'size' => '60',
+    'description' => '',
+    'default_value' => 
+    array (
+    ),
+    'default_value_php' => '$temp = variable_get(\'dw_campaigns_default_bcc_receipt\', \'\'); return array(\'0\' => array(\'value\' =>$temp));',
+    'default_value_widget' => 
+    array (
+      'field_dw_bcc_receipt' => 
+      array (
+        0 => 
+        array (
+          'value' => 'bcc',
+          '_error_element' => 'default_value_widget][field_dw_bcc_receipt][0][value',
+        ),
+      ),
+    ),
+    'required' => 0,
+    'multiple' => '0',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'op' => 'Save field settings',
+    'module' => 'text',
+    'widget_module' => 'text',
+    'columns' => 
+    array (
+      'value' => 
+      array (
+        'type' => 'text',
+        'size' => 'big',
+        'not null' => false,
+        'sortable' => true,
+        'views' => true,
+      ),
+    ),
+    'display_settings' => 
+    array (
+      'label' => 
+      array (
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      4 => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => 
+      array (
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+  ),
+);
+$content['extra']  = array (
+  'title' => '21',
+  'body_field' => '22',
+  'revision_information' => '39',
+  'author' => '20',
+  'options' => '23',
+  'comment_settings' => '40',
+  'menu' => '41',
+);

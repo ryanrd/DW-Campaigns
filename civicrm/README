@@ -1,0 +1,6 @@
+the files in the CRM folder are modified versions of civiCRM's files of the same name.  I will be
+replacing these with patches.   I assert no copyright on any change to any of civicrms core.
+
+CiviCRM is licensed under the GNU Affero General Public License 3 (GNU AGPL 3)
+
+http://www.gnu.org/licenses/agpl-3.0.html
